@@ -1,0 +1,16 @@
+{
+    "Student": {
+        "Student_Name": "another test",
+        "Classes": {
+            "Periods": {
+                "Period 1": "Latin",
+                "Period 2": "Calculus",
+                "Period 3": "Chemistry",
+                "Period 4": "Theology",
+                "Period 5": "World History",
+                "Period 6": "Honors English",
+                "Period 7": "Art"
+            }
+        }
+    }
+}

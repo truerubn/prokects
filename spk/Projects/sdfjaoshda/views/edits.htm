@@ -1,0 +1,32 @@
+<!-- edits.htm ( for sytnax highlighthing ) -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Run Tools</title>
+  <style>
+    html{
+        background-color: rgb(60, 60, 60);
+    }
+
+    body {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    button {
+      background-color: rgb(70, 70, 70);
+      border-color: rgb(65, 65, 65);
+    }
+  </style>
+</head>
+<body>
+  <img src="images/Ruby_logo.svg.png" alt="Ruby_logo" height="50">
+  <h1>rubn hub</h1>
+  <form action="/run_tool" method="post">
+    <button type="submit" name="tool" value="wireshark">wireshark</button>
+    <button type="submit" name="tool" value="zenmap">nmap gui</button>
+    <button type="submit" name="tool" value="nmap">nmap cmd</button>
+    <button type="submit" name="tool" value="jtr">john the ripper</button>
+    <!-- Add more buttons for other tools -->
+  </form>
+</body>
+</html>

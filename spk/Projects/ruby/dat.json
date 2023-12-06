@@ -1,0 +1,72 @@
+{
+    "Student": {
+        "Student_Name": "test",
+        "Classes": {
+            "Periods": {
+                "Period 1": {
+                    "Subject": "Biology",
+                    "Teacher": "Mr. Bellatoni",
+                    "Location": {
+                        "Building": "MainBuilding",
+                        "RoomNumber": 109
+                    }
+                },
+                "Period 2": {
+                    "Subject": "Algebra",
+                    "Teacher": "Mr. Romanak",
+                    "Location": {
+                        "Building": "MainBuilding",
+                        "RoomNumber": 118
+                    }
+                },
+                "Period 3": {
+                    "Subject": "German",
+                    "Teacher": "Frau Jones",
+                    "Location": {
+                        "Building": "MainBuilding",
+                        "RoomNumber": 112
+                    }
+                },
+                "Period 4": {
+                    "Subject": "Theology",
+                    "Teacher": "Brother Gary S.C",
+                    "Location": {
+                        "Building": "CondireBuilding",
+                        "RoomNumber": 311
+                    }
+                },
+                "Period 5": {
+                    "Subject": "World History",
+                    "Teacher": "Mr. Roca",
+                    "Location": {
+                        "Building": "CondireBuilding",
+                        "RoomNumber": 322
+                    }
+                },
+                "Period 6": {
+                    "Subject": "English",
+                    "Teacher": "Mrs. DaVincent",
+                    "Location": {
+                        "Building": "MainBuilding",
+                        "RoomNumber": 101
+                    }
+                },
+                "Period 7": {
+                    "Subject": "Cybersecurity",
+                    "Teacher": "Dr. Evans",
+                    "Location": {
+                        "Building": "MainBuilding",
+                        "RoomNumber": 113
+                    }
+                }
+            },
+            "BlockTimes": {
+                "Block 1": "07:45 AM - 08:54 AM",
+                "Block 2": "09:00 AM - 10:00 AM",
+                "Block 3": "10:06 AM - 11:06 AM",
+                "Block 4": "12:04 PM - 01:04 PM",
+                "Block 5": "01:10 PM - 02:10 PM"
+            }
+        }
+    }
+}

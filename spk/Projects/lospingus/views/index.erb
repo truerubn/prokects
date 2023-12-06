@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Chat</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/faye-websocket@0.11.0/faye-browser.js"></script>
+  <script>
+    $(document).ready(function(){
+      var ws = new Faye.WebSocket.Client('ws://' + window.location.host + window.location.pathname);
+      ws.on('open', function(event) {
+        console.log('Connected to chat.');
+      });
+      ws.on('message', function(event) {
+        $('#messages').append($('<li>').text(event.data));
+      });
+      ws.on('close', function(event) {
+        console.log('Disconnected from chat.');
+      });
+      $('#submit').click(function(){
+        var message = $('#message').val();
+        ws.send(message);
+        $('#message').val('');
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Simple Chat</h1>
+  <ul id="messages"></ul>
+  <input type="text" id="message" placeholder="Type your message">
+  <button id="submit">Send</button>
+</body>
+</html>

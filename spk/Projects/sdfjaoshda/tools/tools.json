@@ -1,0 +1,10 @@
+{
+    "User": {
+        "Tools": {
+            "wireshark": "ACTIVE",
+            "zenmap": "ACTIVE",
+            "nmap": "ACTIVE",
+            "john": "ACTIVE"
+        }
+    }
+}
