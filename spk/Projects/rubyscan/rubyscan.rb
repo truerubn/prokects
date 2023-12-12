@@ -5,7 +5,7 @@ require 'optparse'
 # constants
 
 # these are the start and end port defaults
-# when a -s or -e flag are specified or both
+# when a -s or -e flag aren't specified or both
 # the program result to these two consts.
 DEFAULT_START_PORT = 1 
 DEFAULT_END_PORT = 1000
